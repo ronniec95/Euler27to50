@@ -1,16 +1,15 @@
 
 #include <set>
 #include <vector>
+#include <boost\multiprecision\cpp_int.hpp>
+#include <boost/math/special_functions/pow.hpp> 
 
 int distinct_powers() {
-	std::set<uint64_t> squares;
-
-	int n = 0;
-	for (auto a = 2UL; a <= 100; a++) {
-		for (auto b = 2UL; b <= 100; b++) {
-			auto results = static_cast<uint64_t>(log);
-			squares.insert(results);
-			printf("%llu\n", results);
+	namespace mp = boost::multiprecision;
+	std::set<mp::cpp_int> squares;
+	for (mp::cpp_int a = 2; a <= 100; a++) {
+		for (auto b = 2; b <= 100; b++) {
+			squares.insert(mp::pow(a, b));
 		}
 	}
 

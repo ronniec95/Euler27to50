@@ -1,40 +1,38 @@
-========================================================================
-    CONSOLE APPLICATION : Euler Project Overview
-========================================================================
+Binary tree
+	Search DFS
+	Search BFS
+	Preorder
+	Postorder
+	Inorder
+	Height of tree
+	Visit edges
+	Iterative pre/post order
+	Kadane's algorithm - max subsequence of array
 
-AppWizard has created this Euler application for you.
+Graphs:
+	Minimum spanning tree
+	Topological sort
+	Dykstra shortest path
 
-This file contains a summary of what you will find in each of the files that
-make up your Euler application.
+Segment tree - range query in an array. Minimum between two points in array? Sum in range, max in range. Normally O(n2) + O(1) for search. 
+but segment trees are O(n) to build matrix and O(logn) to query
+Tushar Roy
 
+Sorting
+	Quick sort
+	Radix sort
+	Merge sort
+	American flag sort
 
-Euler.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
+Dynamic programming
+	
+N Queens
+	Diagnoal search Left diagonal = Row - Column,  Right diagonal = Row + Column
 
-Euler.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
+Search a 2d space using  binary search:
+	Use a 2x2 array with x0,y0,x1,y1 rectangle. 1/2 each area
 
-Euler.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named Euler.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+Pattern matching (suffix/prefix)
+	suffix strings
+	prefix strings
+	

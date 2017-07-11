@@ -157,10 +157,16 @@
     <ClInclude Include="Euler28.h" />
     <ClInclude Include="Euler29.h" />
     <ClInclude Include="prime.h" />
+    <ClInclude Include="search.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Amadeus.cpp" />
+    <ClCompile Include="Array.cpp" />
+    <ClCompile Include="codingame.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="Euler21.cpp" />
     <ClCompile Include="Euler22.cpp" />
     <ClCompile Include="Euler23.cpp" />
@@ -170,8 +176,12 @@
     <ClCompile Include="Euler27.cpp" />
     <ClCompile Include="Euler28.cpp" />
     <ClCompile Include="Euler29.cpp" />
+    <ClCompile Include="Goldman.cpp" />
+    <ClCompile Include="Goldman2.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="prime.cpp" />
+    <ClCompile Include="search.cpp" />
+    <ClCompile Include="shadows_of_knight.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
